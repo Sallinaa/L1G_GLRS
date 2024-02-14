@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   background-image: url(pattern.png);
+}
+ul{
+   
+margin-left: 300px;
+list-style: none;
+
+}
+li a{ width: 100px;
+    display: block;
+    padding: 20px 23px;
+    text-decoration: none;
+    color: white;
+    text-align:center;    
+    margin-left: 70px;
+}
+li{
+    float: left;
+}
+nav{
+     width: 100%;
+     overflow: auto;
+}
+li a:hover{
+    background-color: orangered;
+    text-transform:none;
+    transition: all 2s ease;
+}
+.logo img{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.orange{
+    background-color: orangered;
+    width: 400px;
+    height: 200px;
+position: relative;
+left: 1100px;
+bottom: 226px;
+opacity: 0.9; 
+}
+.otg{
+    display: flex;
+    position: relative;bottom: 600px ;
+    justify-content: space-around;
+    text-align: center;
+}
+.voiture{
+    background-color: rgb(255, 255, 255);
+    width: 20,3%;
+}
+.voiture h3{
+    color: rgb(0, 0, 0);  
+}
+.voiture p{
+    color: grey;
+}
+.voiture h4{
+    background-color: rgb(225, 213, 213);
+    color: orangered;
+    height: 25px;
+   text-align: center;
+}
+
+.ftg{
+    display: flex;
+    position: relative;bottom: 600px ;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.car{
+    background-color: rgb(255, 255, 255);
+    width: 20.3%;
+}
+.car h3{
+    color: rgb(0, 0, 0);   
+}
+.car p{
+    color: grey;
+}
+.car h4{
+    background-color: rgb(225, 213, 213);
+    color: orangered;
+    height: 25px;
+   text-align: center;
+}
+.orange2{
+    background-color: orangered;
+    width: 45%;
+    height: 300px;
+    padding: 20px;
+    position: relative;bottom: 350px;
+}
+.orange2 h1{
+    color: white;
+}
+.orange2 p{
+    color: white;
+}
+.vrir{ border: 1px white solid;
+    padding: 1px;
+    width: 200px;
+}
+.marque{ 
+  
+    width: 50%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+    opacity: 0.8;
+    background-color: rgb(25, 23, 23);
+}
+.grey{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(45, 41, 41);
+    position: relative;bottom: 20px;
+}
+.grey p{
+    color: white;
+    padding: 10px;
+}
+.petite{
+    background-color: orangered;
+    height: 250px;
+    width: 5px;
+    margin-left: 80px;
+}
+
+.bloc{
+    display: flex;
+}
+.sbloc1{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(36, 35, 35);
+    opacity: 0.8;
+}
+.sbloc2{
+    width: 10%;
+    height: 35px;
+    background-color: orangered;
+}
+.holl{
+    align-items: center;
+    display: flex;
+    margin: 10px 10px 10px;
+    justify-content: space-between;
+    color: darkorange;
+}
+
